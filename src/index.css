@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+   background: url("./assets/bacgro.jpg");
+   
+
+   
+
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ .cool { 
+   background-image: url('./assets/pic1.jpg');
+ 
+
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  background-repeat: no-repeat;
+  max-width: 30rem;
+  margin-left: ;
+  
+  
+
+}
+
+
+.warm {
+  background-image: url('./assets/sunshine.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 30rem;
+  margin-left: ;
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+  .cool{
+    margin-left:-5%;
+  }
+
+.warm{
+  margin-left: -5%;
+}
+
+}
+
+
+@media only screen and (min-width: 720px){
+  .cool{
+    margin-left:18%;
+  }
+
+.warm{
+  margin-left: 18%;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1200px){
+  .cool{
+    margin-left:33%;
+  }
+
+.warm{
+  margin-left: 33%;
+}
+
+}
+
+
+ 
+
+
+ 
