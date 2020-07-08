@@ -21,7 +21,6 @@ It will Run the  React app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make  any edits.
-You will also see the  errors in the console.
 
 
 
